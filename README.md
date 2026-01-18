@@ -8,9 +8,9 @@ Offline **cleartext secret / password detection** for text files using a local L
 
 ## What’s in this repo
 
-- **`Cleartext-password-Detector.ps1`** — PowerShell CLI that scans a text file and returns a structured result. :contentReference[oaicite:1]{index=1}  
-- **`llama-cli.exe`** — local inference runner (bundled here for convenience). :contentReference[oaicite:2]{index=2}  
-- **MIT License** :contentReference[oaicite:3]{index=3}  
+- **`Cleartext-password-Detector.ps1`** — PowerShell CLI that scans a text file and returns a structured result. 
+- **`llama-cli.exe`** — local inference runner (bundled here for convenience).  
+- **MIT License** 
 
 ---
 

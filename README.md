@@ -22,6 +22,20 @@ Offline **cleartext secret / password detection** for text files using a local L
 - **Portable**: PowerShell script + local runner.
 
 ---
+## Example output
+
+### Example 1 — secret found
+```json
+{
+  "verdict": "SECRET",
+  "confidence": 0.82,
+  "types": ["password"],
+  "evidence": [
+    "Line 03: Server=prod-db-01;Database=app_prod;User Id=svc_app;Pwd=Winter2026!SuperSecret;Encrypt=True;"
+  ]
+}
+
+---
 
 ## Quick start
 

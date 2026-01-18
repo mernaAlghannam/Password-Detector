@@ -20,6 +20,13 @@ Offline **cleartext secret / password detection** for text files using a local L
 - **LLM-assisted detection**: aims to catch secrets embedded in configs, connection strings, logs, code comments, etc.
 - **Evidence reporting**: returns the line(s) that triggered the detection (and a confidence score).
 - **Portable**: PowerShell script + local runner.
+---
+## Quick start
+
+### 1) Clone
+```bash
+git clone https://github.com/mernaAlghannam/Password-Detector.git
+cd Password-Detector
 
 ---
 ## Example output
@@ -34,12 +41,3 @@ Offline **cleartext secret / password detection** for text files using a local L
     "Line 03: Server=prod-db-01;Database=app_prod;User Id=svc_app;Pwd=Winter2026!SuperSecret;Encrypt=True;"
   ]
 }
-
----
-
-## Quick start
-
-### 1) Clone
-```bash
-git clone https://github.com/mernaAlghannam/Password-Detector.git
-cd Password-Detector
